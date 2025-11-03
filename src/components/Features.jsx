@@ -9,6 +9,9 @@ import MacbookModel from "./models/Macbook.jsx";
 import useMacBookStore from "../store/index.js";
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
+import {ScrollTrigger} from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const ModelScroll = () => {
     const groupRef = useRef(null);
