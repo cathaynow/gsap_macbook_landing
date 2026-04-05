@@ -1,4 +1,4 @@
-import {footerLinks} from "../constants/index.js";
+﻿import {footerLinks} from "../constants/index.js";
 
 const Footer = () => {
     return (
@@ -28,3 +28,4 @@ const Footer = () => {
     )
 }
 export default Footer
+
