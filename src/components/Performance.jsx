@@ -1,4 +1,4 @@
-import {useRef} from "react";
+﻿import {useRef} from "react";
 import {useGSAP} from "@gsap/react";
 import {gsap} from "gsap";
 import {performanceImages, performanceImgPositions} from "../constants/index.js";
@@ -89,7 +89,7 @@ const Performance = () => {
             gaming feels more immersive and realistic than ever.
           </span>{" "}
                     And Dynamic Caching optimizes fast on-chip memory to dramatically
-                    increase average GPU utilization — driving a huge performance boost
+                    increase average GPU utilization, driving a huge performance boost
                     for the most demanding pro apps and games.
                 </p>
             </div>

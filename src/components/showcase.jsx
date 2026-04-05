@@ -1,4 +1,4 @@
-import {useMediaQuery} from "react-responsive";
+﻿import {useMediaQuery} from "react-responsive";
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
 
@@ -21,14 +21,14 @@ const Showcase = () => {
                 transform: 'scale(1.1)'
             }).to('.content', {opacity: 1, y: 0, ease: 'power1.in'})
         }
-    })
+    }, [isTablet])
 
     return (
         <section id="showcase">
             <div className="media">
                 <video src="/videos/game.mp4" loop muted autoPlay playsInline/>
                 <div className="mask">
-                    <img src="/mask-logo.svg"/>
+                    <img src="/mask-logo.svg" alt=""/>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ const Showcase = () => {
                             </p>
                             <p>
                                 It drives Apple Intelligence on iPad Pro, so you can write, create, and accomplish more
-                                with ease. All in a design that’s unbelievably thin, light, and powerful.
+                                with ease. All in a design that's unbelievably thin, light, and powerful.
                             </p>
                             <p>
                                 A brand-new display engine delivers breathtaking precision, color accuracy, and
@@ -73,3 +73,4 @@ const Showcase = () => {
     )
 }
 export default Showcase
+

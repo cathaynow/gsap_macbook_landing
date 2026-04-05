@@ -1,4 +1,4 @@
-import {useMediaQuery} from "react-responsive";
+﻿import {useMediaQuery} from "react-responsive";
 import {useGSAP} from "@gsap/react";
 import gsap from 'gsap'
 
@@ -17,13 +17,13 @@ const Highlights = () => {
             duration: 1,
             ease: 'power1.inOut'
         });
-    },)
+    }, [isMobile])
 
     return (
         <section id="highlights">
-            <h2>There’s never been a
+            <h2>There's never been a
                 better time to upgrade.</h2>
-            <h3>Here’s what you get with the new MacBook Pro.</h3>
+            <h3>Here's what you get with the new MacBook Pro.</h3>
 
             <div className="masonry">
                 <div className="left-column">
@@ -64,3 +64,4 @@ const Highlights = () => {
 }
 
 export default Highlights
+

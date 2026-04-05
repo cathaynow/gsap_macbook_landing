@@ -1,9 +1,8 @@
-import React from 'react'
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import ProductViewer from "./components/ProductViewer.jsx";
 import gsap from 'gsap'
-import {ScrollTrigger, SplitText} from 'gsap/all'
+import {ScrollTrigger} from 'gsap/all'
 import Showcase from "./components/showcase.jsx";
 import Performance from "./components/Performance.jsx";
 import Features from "./components/Features.jsx";

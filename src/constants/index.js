@@ -1,4 +1,4 @@
-const navLinks = [
+﻿const navLinks = [
     {label: "Store"},
     {label: "Mac"},
     {label: "iPhone"},
@@ -107,7 +107,7 @@ const features = [
         id: 5,
         icon: "/feature-icon5.svg",
         highlight: "Writing Tool.",
-        text: "Write smarter and faster, whether it’s blogs, essays, or captions, AI helps polish your words.",
+        text: "Write smarter and faster, whether it's blogs, essays, or captions, AI helps polish your words.",
         styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
     },
 ];
